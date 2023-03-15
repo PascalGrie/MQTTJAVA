@@ -12,7 +12,7 @@ import org.eclipse.paho.client.mqttv3.persist.MemoryPersistence;
 public class MQTTSubscriber {
     public static void main(String[] args) {
         String broker = "tcp://192.168.2.115:1883";
-        String topic = "esp32/Temperatur";
+        String topic = "esp32/temperature";
         //String username = "emqx";
         //String password = "public";
         String clientid = "subscribe_client";
